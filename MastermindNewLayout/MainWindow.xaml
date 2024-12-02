@@ -90,7 +90,7 @@
             </MenuItem>
             <MenuItem x:Name="settingsMenu" Header="Instellingen">
                 <MenuItem x:Name="attemptsAmountmenu" Header="Aantal pogingen">
-                    <Slider x:Name="maxAttemptSlider" TickPlacement="BottomRight" TickFrequency="1" Minimum="3" Maximum="20" Width="100" AutoToolTipPlacement="TopLeft" ValueChanged="maxAttemptSlider_ValueChanged"/>
+                    <Slider x:Name="maxAttemptSlider" Value="10" TickPlacement="BottomRight" TickFrequency="1" Minimum="3" Maximum="20" Width="100" AutoToolTipPlacement="TopLeft" ValueChanged="maxAttemptSlider_ValueChanged"/>
                 </MenuItem>
             </MenuItem>
         </Menu>
